@@ -1,0 +1,35 @@
+.box{
+background: linear-gradient(to right, #FF9898, #8054FF);
+width: 1010px;
+height: 400px;
+border-radius: 50px;
+display: flex;
+flex-direction: row;
+}
+.button1{
+    background-color: black;
+    border: 2px;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+.text1{
+    font: poppins;
+    color: white;
+}
+.text2{
+    font: poppins;
+    color: white;
+    width: 380px;
+    font-size: 40px;
+}
+.container{
+    padding-top: 80px;
+    padding-left: 72px;
+}
+.image1{
+    padding-right: 0px;
+    margin-right: 0px;
+}
