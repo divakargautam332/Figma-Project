@@ -6,7 +6,7 @@ import Dashboard from "./pages/dashboard/Dashboard";
 import Home from "./pages/Home/Home";
 import Features from "./components/sections/Features/Features";
 import FooterUp from "./components/layouts/Footer/FooterUp";
-import Contact from "./components/sections/Contact/Contact";
+import Contact from "./components/sections/contacts/Contact";
 import Navbar from "./components/layouts/Navbar/Navbar";
 
 function App() {
