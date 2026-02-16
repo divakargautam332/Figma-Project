@@ -1,0 +1,32 @@
+.footerDown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+    background-color: #000000;
+    border-top: 1px solid #1f1f1f;
+}
+
+.text {
+    color: #9e9e9e;
+    font-size: 14px;
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    background: #18181c;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icon:hover {
+    background: linear-gradient(90deg, #ec4899, #a855f7);
+}

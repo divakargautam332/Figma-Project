@@ -1,0 +1,51 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 100px;
+    background-color: #0f172a;
+    color: white;
+}
+
+.left {
+    max-width: 320px;
+}
+
+.logo {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.para {
+    font-size: 14px;
+    color: #9e9e9e;
+    line-height: 1.6;
+}
+
+.rightWrapper {
+    display: flex;
+    gap: 80px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.column h4 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.column p {
+    font-size: 14px;
+    color: #9e9e9e;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.column p:hover {
+    color: #a855f7;
+}
