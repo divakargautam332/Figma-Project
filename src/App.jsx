@@ -12,6 +12,7 @@ import Navbar from "./components/layouts/Navbar/Navbar";
 function App() {
   return (
     <BrowserRouter>
+      <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/features" element={<Features />} />
